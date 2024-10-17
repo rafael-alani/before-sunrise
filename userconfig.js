@@ -29,30 +29,9 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
-      name: "Chill",
-      background_url: "src/img/banners/bg-1.gif",
+      name: "Work",
+      background_url: "src/img/banners/cbg-10.gif",
       categories: [
-        {
-          name: "fun",
-          links: [
-            {
-              url: "https://monkeytype.com/",
-              name: "/monkeytype/",
-            },
-            {
-              url: "https://openquant.co/math-game",
-              name: "/quant/",
-            },
-            {
-              url: "https://mathheads.net/",
-              name: "/mental-math/",
-            },
-            {
-              url: "https://lichess.org/training",
-              name: "/lichess/",
-            },
-          ],
-        },
         {
           name: "Mails",
           links: [
@@ -75,6 +54,33 @@ const CONFIG = new Config({
             {
               name: "/yahoo/",
               url: "https://mail.yahoo.com",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "Chill",
+      background_url: "src/img/banners/bg-1.gif",
+      categories: [
+        {
+          name: "fun",
+          links: [
+            {
+              url: "https://monkeytype.com/",
+              name: "/monkeytype/",
+            },
+            {
+              url: "https://openquant.co/math-game",
+              name: "/quant/",
+            },
+            {
+              url: "https://mathheads.net/",
+              name: "/mental-math/",
+            },
+            {
+              url: "https://lichess.org/training",
+              name: "/lichess/",
             },
           ],
         },
@@ -149,68 +155,33 @@ const CONFIG = new Config({
         },
       ],
     },
-    // {
-    //   name: "tech",
-    //   background_url: "src/img/banners/bg-3.gif",
-    //   categories: [
-    //     {
-    //       name: "subreddits",
-    //       links: [
-    //         {
-    //           name: "r/startpages/",
-    //           url: "https://www.reddit.com/r/startpages/",
-    //         },
-    //         {
-    //           name: "r/unixporn",
-    //           url: "https://www.reddit.com/r/unixporn/",
-    //         },
-    //         {
-    //           name: "r/mechkbds/",
-    //           url: "https://www.reddit.com/r/MechanicalKeyboards/",
-    //           icon: "keyboard",
-    //           icon_color: "#a57685",
-    //         },
-    //         {
-    //           name: "r/programming",
-    //           url: "https://www.reddit.com/r/programming/",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       name: "blogs",
-    //       links: [
-    //         {
-    //           name: "fasterthanli",
-    //           url: "https://fasterthanli.me/articles",
-    //           icon: "anchor",
-    //         },
-    //         {
-    //           name: "dev.to",
-    //           url: "https://dev.to",
-    //         },
-    //         {
-    //           name: "mataroa.blog",
-    //           url: "https://collection.mataroa.blog",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       name: "misc",
-    //       links: [
-    //         {
-    //           name: "post office",
-    //           url: "http://afternoon.dynu.com/letterbox.html",
-    //           icon: "mailbox",
-    //         },
-    //         {
-    //           name: "rust docs",
-    //           url: "https://doc.rust-lang.org/book/",
-    //           icon: "notebook",
-    //           icon_color: "#977a3a",
-    //         },
-    //       ],
-    //     },
-    //   ],
-    // },
+    {
+      name: "Tech",
+      background_url: "src/img/banners/bg-3.gif",
+      categories: [
+        {
+          name: "Interview Practice",
+          links: [
+            {
+              name: "/leetcode/",
+              url: "https://leetcode.com/",
+            },
+            {
+              name: "/hackerrank/",
+              url: "https://www.hackerrank.com/dashboard",
+            },
+          ],
+        },
+        {
+          name: "Blogs",
+          links: [
+            {
+              name: "/mataroa collection/",
+              url: "https://collection.mataroa.blog/",
+            },
+          ],
+        },
+      ],
+    },
   ],
 });
