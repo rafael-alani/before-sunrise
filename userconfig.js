@@ -147,9 +147,16 @@ const CONFIG = new Config({
           name: "Reasearch",
           links: [
             {
-              name: "/aix website/",
-              url: "https://lainchan.org/music/",
-              icon: "disc",
+              name: "/arxiv/",
+              url: "https://arxiv.org/",
+            },
+            {
+              name: "/pantheon arxiv trends/",
+              url: "https://aipapers.pantheon.so/",
+            },
+            {
+              name: "/pantheon newsletter/",
+              url: "https://newsletter.pantheon.so/",
             },
           ],
         },
