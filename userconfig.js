@@ -81,22 +81,14 @@ const CONFIG = new Config({
         {
           name: "YesDelft",
           links: [
-            // {
-            //   name: "/quire/",
-            //   url: "https://quire.io/w/External_relations_team/51",
-            // },
-            // {
-            //   name: "/hubspot/",
-            //   url: "https://app.hubspot.com/reports-dashboard/5609995/view/2680638",
-            // },
-            // {
-            //   name: "/teams/",
-            //   url: "https://teams.microsoft.com/v2/",
-            // },
-            // {
-            //   name: "/outlook/",
-            //   url: "https://outlook.office.com/mail/cubesat-vsv@tudelft.nl/",
-            // },
+            {
+              name: "/mail/",
+              url: "https://mail.google.com/mail/u/0/#inbox",
+            },
+            {
+              name: "/drive/",
+              url: "https://drive.google.com/drive/u/0/home",
+            },
           ],
         },
       ],
