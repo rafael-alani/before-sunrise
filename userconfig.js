@@ -101,6 +101,10 @@ const CONFIG = new Config({
           name: "fun",
           links: [
             {
+              url: "https://www.nt2school.nl/nl/lesmateriaal/delftse-methode-nederlands-voor-anderstaligen",
+              name: "/groene boek/",
+            },
+            {
               url: "https://monkeytype.com/",
               name: "/monkeytype/",
             },
